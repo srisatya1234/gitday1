@@ -23,3 +23,8 @@ Gives 2 keys public & private donot release private key.
 command : git gui&
 - It will open gui
    resacn to check unstaged files
+
+
+3) gitk is for viewing the history
+command: gitk &
+
