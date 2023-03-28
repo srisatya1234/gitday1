@@ -39,3 +39,7 @@ ex: git checkout --commands.txt
 
 In the above command we can only write one file name, to inlcude more file names we can write the following command
 command: git checkout .
+
+2)Inorder to delete files which are not yet committed or added previously use:
+git clean --xdf
+-xdf means f - force
