@@ -31,7 +31,7 @@ command: gitk &
 
 Revert commands:
 
-
+Before doing add or commit or push
 1)Modified few changes and didn't add, committed or pushed but wanted to undo the changes in the files
 command: git checkout -- filename
 ex: git checkout --commands.txt
@@ -43,3 +43,10 @@ command: git checkout .
 2)Inorder to delete files which are not yet committed or added previously use:
 git clean --xdf
 -xdf means f - force
+
+After adding but not committed
+1) command: git gui& 
+change the staged to unstaged by clicking the file
+      (or)
+git reset -- filename
+ex: git reset -- file.txt
