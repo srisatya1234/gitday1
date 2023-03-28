@@ -50,3 +50,12 @@ change the staged to unstaged by clicking the file
       (or)
 git reset -- filename
 ex: git reset -- file.txt
+
+After commiting :
+1) committed but need to add few more changes to a file 
+command: git commit --amend filename
+ex: git commit --amed file.txt
+(or)
+can be done using the git gui& 
+- add changes to thr file, open git gui
+-the file will be present in both staged and unstaged area, move the file to staged and commit it with amed commit 
