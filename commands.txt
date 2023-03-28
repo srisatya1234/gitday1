@@ -28,6 +28,14 @@ command : git gui&
 3) gitk is for viewing the history
 command: gitk &
 
-Modified few changes and didn't add, committed or pushed but wanted to undo the changes in the files
+
+Revert commands:
+
+
+1)Modified few changes and didn't add, committed or pushed but wanted to undo the changes in the files
 command: git checkout -- filename
 ex: git checkout --commands.txt
+
+
+In the above command we can only write one file name, to inlcude more file names we can write the following command
+command: git checkout .
