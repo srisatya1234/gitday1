@@ -59,3 +59,9 @@ ex: git commit --amed file.txt
 can be done using the git gui& 
 - add changes to thr file, open git gui
 -the file will be present in both staged and unstaged area, move the file to staged and commit it with amed commit 
+
+2) For undo the commit
+commit : git reset HEAD~1
+1 indicated rollback the last commit
+(or)
+git reset HEAD^
